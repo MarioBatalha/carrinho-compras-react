@@ -1,2 +1,1 @@
-# cartinhoCompras-react
-Carrinho de compras
+<p align="center">Carrinho de Compras</p>
