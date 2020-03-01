@@ -1,0 +1,58 @@
+{
+    "produtos":[
+    {
+      "titulo": "Tenis Tommy",
+      "preço": "20 €",
+      "categoria": "Vestuário",
+      "id": 1,
+      "tamanho": 41,
+      "genero": "M"
+    },
+
+    {
+       "titulo": "Tenis Adidas",
+       "preço": "30 €",
+       "categoria": "Vestuário",
+       "id": 2,
+       "tamanho": 39,
+       "genero": "M/F"
+    },
+
+    {
+        "titulo": "Tenis Adias",
+        "preço": "10 €",
+        "categoria": "Vestuário",
+        "id": 3,
+        "tamanho": 28,
+        "genero": "M"
+    },
+
+    {
+        "titulo": "Camisolas Dainise",
+        "preço": "10 €",
+        "categoria": "Vestuário",
+        "id": 4,
+        "tamanho": "S",
+        "genero": "M"
+    },
+
+    {
+        "titulo": "Camisolas desportiva",
+        "preço": "15 €",
+        "categoria": "Vestuário",
+        "id": 5,
+        "tamanho": "M",
+        "genero": "F"
+    },
+
+    {
+        "titulo": "Camisolas branca",
+        "preço": "25 €",
+        "categoria": "Vestuário",
+        "id": 6,
+        "tamanho": "XL",
+        "genero": "M/F"
+    }
+  ]  
+      
+}

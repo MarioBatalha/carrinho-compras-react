@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+  font-family: 'lato';
+  font-style: normal;
+}
+body{
+  background-color: #f7f7f7;
+}
+ul{
+  list-style: none;
+  position: relative;
+  text-align: center; 
+  border-bottom: solid 2px #59c187;
+}
+li{
+  font-size: 18pt;
+  display: inline;
+  padding: 40px;
+}
+h1{
+  color: #67d08c;
+  text-align: center;
+  font-size: 28pt;
+  margin: 100px;
+}
+.menu{
+  background-color: #f7f7f7;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+.App-header{
+  background-image: url('./images/perfil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+.mochi{
+  font-size: 40pt;
+  color: #fff;
+  position: relative;
+  margin-top: 400px;
+  margin: 500px;
+}
+.grid-container {
+  width: 70%;
+  height: 30%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #f7f7f7;
+}
+
+.grid-container > div {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 13px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.images{
+  width: 200px;
+  height: 200px;
+}
+.cart{
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #67d08c;
+}
+ @-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+
